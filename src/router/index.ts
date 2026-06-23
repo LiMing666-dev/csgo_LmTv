@@ -28,7 +28,22 @@ const router = createRouter({
           path: "/setting",
           name: "IndexSetting",
           component: () => import('../pages/setting/index.vue')
-        }
+        },
+        {
+          path: "/video",
+          name: "videoSetting",
+          component: () => import('../pages/video/index.vue')
+        },
+        {
+          path: "/user",
+          name: "IndexUser",
+          component: () => import('../pages/user/index.vue')
+        },
+        {
+          path: "/demo",
+          name: "IndexDemo",
+          component: () => import('../pages/demo/index.vue')
+        },
       ]
     }
   ]
