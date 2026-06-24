@@ -80,8 +80,8 @@ const handleSidebarClick = (url: string) => {
 
       <div
         class="sidebarItem"
-        :class="{ sidebarItemActive: sidebarActive === 'user' }"
-        @click="handleSidebarClick('user')"
+        :class="{ sidebarItemActive: sidebarActive === 'login' }"
+        @click="handleSidebarClick('login')"
       >
         <v-tooltip text="LiMing">
           <template v-slot:activator="{ props }">

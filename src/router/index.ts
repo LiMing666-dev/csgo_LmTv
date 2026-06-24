@@ -44,6 +44,11 @@ const router = createRouter({
           name: "IndexDemo",
           component: () => import('../pages/demo/index.vue')
         },
+         {
+          path: "/login",
+          name: "IndexLogin",
+          component: () => import('../pages/user/login.vue')
+        },
       ]
     }
   ]
